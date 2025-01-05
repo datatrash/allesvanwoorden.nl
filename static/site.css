@@ -1,5 +1,6 @@
 body {
   padding-top: 60px;
+  color: #555;
 }
   
 @media (max-width:768px) {
@@ -176,6 +177,12 @@ h2 {
   box-shadow: inset  0 -15px 15px -15px rgba(0,0,0,0.29);
 }
 
+.section-portfolio {
+  -moz-box-shadow: inset  0 -15px 15px -15px rgba(0,0,0,0.29);
+  -webkit-box-shadow: inset  0 -15px 15px -15px rgba(0,0,0,0.29);
+  box-shadow: inset  0 -15px 15px -15px rgba(0,0,0,0.29);
+}
+
 .section-mail {
   background: url("/images/mail-pattern.png");
 }
@@ -183,19 +190,6 @@ h2 {
 .social {
   text-align: center;
   font-size: 48px;
-}
-
-.section-droom {
-  background: transparent;
-  -moz-box-shadow: inset  0 -15px 15px -15px rgba(0,0,0,0.29);
-  -webkit-box-shadow: inset  0 -15px 15px -15px rgba(0,0,0,0.29);
-  box-shadow: inset  0 -15px 15px -15px rgba(0,0,0,0.29);
-}
-
-.section-droom .container {
-  background: transparent;
-  color: #eee;
-  text-shadow: #000 1px 0 10px;
 }
 
 .wrapper {
