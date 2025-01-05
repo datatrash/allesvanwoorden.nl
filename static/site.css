@@ -1,0 +1,194 @@
+body {
+  padding-top: 60px;
+}
+
+@media (max-width:768px) {
+    .btn,
+    .btn-morphing {
+        margin-bottom: 10px;
+    }
+
+    .nav .btn {
+        display: block;
+    }
+}
+
+.footer {
+    background-attachment: fixed;
+    position: relative;
+    line-height: 20px;
+}
+
+.footer nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.footer nav > ul > li {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 15px 3px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.footer nav > ul > li:first-child {
+    margin: 0;
+    padding: 0;
+}
+
+.footer nav > ul a:not(.btn) {
+    color: #777777;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.footer nav > ul a:not(.btn):hover,
+.footer nav > ul a:not(.btn):focus {
+    color: #E3E3E3;
+}
+
+.footer .copyright {
+    color: #777777;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin: 15px 3px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.landing-header {
+  height: 800px;
+  background-image: url("/images/pattern.png");
+  position: fixed;
+  width: 100%;
+}
+
+.landing-padding {
+  padding-top: 800px;
+}
+
+.landing-header .motto {
+  padding-top: 8%;
+  text-align: left;
+  z-index: 3;
+  width: 100%;
+}
+
+.landing-section {
+  padding: 100px 0;
+}
+
+.landing-section .btn-simple {
+  padding: 0;
+}
+
+.landing-section .column {
+  padding: 0 75px 0 25px;
+}
+
+.contact-form {
+  margin-top: 30px;
+}
+
+.contact-form label {
+  margin-top: 15px;
+}
+
+.contact-form .btn {
+  margin-top: 30px;
+}
+
+.navbar-relative {
+  position: relative;
+  z-index: 2;
+}
+
+.motto h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.motto h3 {
+    width: 100%;
+    text-align: center;
+}
+
+.motto h1 img {
+  height: 300px;
+}
+
+.motto h3 img {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.motto .scroll {
+  width: 100%;
+  position: fixed;
+  bottom: 5%;
+  margin: auto;
+  text-align: center;
+  font-size: 48px;
+}
+
+.motto .scroll i {
+  cursor: pointer;
+}
+
+.motto .scroll i:hover {
+  color: #222;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.maintext {
+  background: url("/images/intro-pattern.png");
+  -moz-box-shadow: inset  0 -15px 15px -15px rgba(0,0,0,0.29);
+  -webkit-box-shadow: inset  0 -15px 15px -15px rgba(0,0,0,0.29);
+  box-shadow: inset  0 -15px 15px -15px rgba(0,0,0,0.29);
+}
+
+.maintext img {
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+.section-wat {
+  -moz-box-shadow: inset  0 -15px 15px -15px rgba(0,0,0,0.29);
+  -webkit-box-shadow: inset  0 -15px 15px -15px rgba(0,0,0,0.29);
+  box-shadow: inset  0 -15px 15px -15px rgba(0,0,0,0.29);
+}
+
+.section-mail {
+  background: url("/images/mail-pattern.png");
+}
+
+.social {
+  text-align: center;
+  font-size: 48px;
+}
+
+.section-droom {
+  background: transparent;
+  -moz-box-shadow: inset  0 -15px 15px -15px rgba(0,0,0,0.29);
+  -webkit-box-shadow: inset  0 -15px 15px -15px rgba(0,0,0,0.29);
+  box-shadow: inset  0 -15px 15px -15px rgba(0,0,0,0.29);
+}
+
+.section-droom .container {
+  background: transparent;
+  color: #eee;
+  text-shadow: #000 1px 0 10px;
+}
+
+.wrapper {
+  background: transparent;
+}
