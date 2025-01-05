@@ -2120,41 +2120,6 @@ textarea.form-control {
     display: none !important; } }
 /*          Changes for small display      */
 @media (max-width: 767px) {
-  .navbar-transparent {
-    padding-top: 15px;
-    background-color: rgba(0, 0, 0, 0.45); }
-
-  body {
-    position: relative;
-    font-size: 12px; }
-
-  h6 {
-    font-size: 1em; }
-
-  .wrapper {
-    -webkit-transform: translate3d(0px, 0, 0);
-    -moz-transform: translate3d(0px, 0, 0);
-    -o-transform: translate3d(0px, 0, 0);
-    -ms-transform: translate3d(0px, 0, 0);
-    transform: translate3d(0px, 0, 0);
-    -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    -o-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    left: 0;
-    background-color: white; }
-
-  .navbar .container {
-    left: 0;
-    width: 100%;
-    -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    -o-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    position: relative; }
-
   .navbar .navbar-collapse.collapse,
   .navbar .navbar-collapse.collapse.in,
   .navbar .navbar-collapse.collapsing {

@@ -1,7 +1,7 @@
 body {
   padding-top: 60px;
 }
-
+  
 @media (max-width:768px) {
     .btn,
     .btn-morphing {
@@ -101,9 +101,18 @@ body {
   margin-top: 30px;
 }
 
+.navbar-header {
+  float: none;
+}
+
 .navbar-relative {
   position: relative;
   z-index: 2;
+}
+
+.navbar-right {
+  float: right !important;
+  margin-right: 15px;
 }
 
 .motto h1 {
