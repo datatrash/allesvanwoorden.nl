@@ -195,3 +195,7 @@ h2 {
 .wrapper {
   background: transparent;
 }
+
+.glyphicon-link {
+  padding-right: 10px;
+}
