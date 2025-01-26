@@ -187,6 +187,10 @@ h2 {
   background: url("/images/mail-pattern.png");
 }
 
+.section-voorbeelden {
+  background: url("/images/voorbeelden-pattern.png");
+}
+
 .social {
   text-align: center;
   font-size: 48px;
